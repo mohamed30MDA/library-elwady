@@ -19,6 +19,13 @@ function normalizeText(text) {
 
     return text;
 }
+function openAbout(){
+    document.getElementById("aboutWidget").style.display = "flex";
+}
+
+function closeAbout(){
+    document.getElementById("aboutWidget").style.display = "none";
+}
 function checkEmail(){
 
     let email = document.getElementById("emailInput").value;

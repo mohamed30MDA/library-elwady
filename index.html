@@ -81,6 +81,25 @@ body {
     text-align:center;
     width:350px;
 }
+.about-btn{
+    position: fixed;
+    bottom: 20px;
+    right: 140px; /* جنبه مش فوقه */
+    background-color: #1565c0;
+    color: white;
+    border: none;
+    padding: 14px 22px;
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.about-btn:hover{
+    background-color: #0d47a1;
+    transform: scale(1.08);
+}
 
 
 
@@ -255,6 +274,38 @@ tr:hover{
 
     </div>
 </div>
+<button class="about-btn" onclick="openAbout()">About Us</button>
+
+<div id="aboutWidget" class="support-widget">
+    <div class="support-box">
+        <span class="close-btn" onclick="closeAbout()">✖</span>
+
+        <h2>About Us</h2>
+
+        <p>
+            تم تطوير هذا الموقع بواسطة :
+ الطالب محمد عماد و الطالبة منة أحمد
+ طلاب الفرقة الثانية – تخصص هندسة قوي الكهربائية و الاتصالات، <p>
+
+وذلك في إطار السعي إلى توظيف التكنولوجيا الحديثة في دعم العملية التعليمية وتسهيل الوصول إلى مصادر المعرفة.<p>
+
+جاء تنفيذ هذا المشروع تحت دعم وإشراف رئيسة المكتبة : الأستاذة هبة الله محمد
+ وبدعم من رئيس مجلس إدارة معاهد الوادي العليا : المهندسة آية أسامة محي الدين
+إيمانًا بأهمية التحول الرقمي ورفع كفاءة الخدمات المقدمة للطلاب.<p>
+
+<p>يُعد هذا الموقع بمثابة فهرس إلكتروني متكامل للمكتبة، يهدف إلى:</p>
+
+✔ تسهيل عملية البحث عن الكتب والمراجع<p>
+✔ توفير الوقت والجهد للطلاب والباحثين<p>
+✔ تحسين تجربة استخدام المكتبة<p>
+✔ دعم الاتجاه نحو التحول الرقمي داخل المؤسسة<p>
+
+ونسعى دائمًا إلى تطوير هذا النظام وإضافة المزيد من المزايا التي تساهم في الارتقاء بالخدمات التعليمية، وتوفير بيئة معرفية حديثة تواكب التطور التكنولوجي.
+        </p>
+
+    </div>
+</div>
+
 
 <footer class="footer">
    2026 SVA Library. All Rights Reserved | Developed by Mohammed Emad & Menna Ahmed ©
